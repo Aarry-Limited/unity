@@ -1,0 +1,216 @@
+/*
+Author       : Masum Billah
+Template Name: Unity - Responsive App Landing Page
+Version      : 1.0
+*/
+/*=============================================================
+    CSS INDEX
+    =============================
+    01. GENERAL STYLE (body, link color, section-title, preloader btn, overlay, section-padding etc)
+    02. BOOTSTRAP NAVIGATION OVERRIDES
+    03. START HOME DESIGN
+    04. START ABOUT US DESIGN
+    05. START FEATURE ONE AND FEATURE TWO DESIGN
+    06. START MAIN FEATURES DESIGN
+    07. START APP SCREENSHOT DESIGN
+    08. START HOW IT WORKS DESIGN
+    09. START MORE FEATURES DESIGN
+    10. START PRICING DESIGN
+    11. START TESTIMONIAL DESIGN
+    12. START DOWNLOAD DESIGN
+    13. START NEWSLETTER DESIGN
+    14. START CONTACT FORM  DESIGN
+    15. START ADDRESS DESIGN
+    16. START FOOTER DESIGN
+  =============================================================*/
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GENERAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #777;
+	overflow-x: hidden;
+	margin: auto;
+	background: #fff;
+}
+html,
+body { height: 100% }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+/*START PRELOADER DESIGN*/
+.preloader {
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.status-mes {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+    font-size: 10px;
+    text-indent: -12345px;
+    border-top: 3px solid rgba(0, 0, 0, 0.08);
+    border-right: 3px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+    border-left: 3px solid #51d2c0;
+    border-radius: 50%;
+    -webkit-animation: spinner 700ms infinite linear;
+    animation: spinner 700ms infinite linear;
+    z-index: 10000;
+}
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+.section-padding{
+	padding: 40px 0 60px;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 16.START FOOTER DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.footer {
+	background: #313238 none repeat scroll 0 0;
+	padding:40px 0;
+}
+.footer_social {
+	margin-bottom: 10px;
+}
+@media only screen and (max-width:480px) { 
+.pull-right {float: none !important;}
+}
+.footer_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width:480px) { 
+.footer_social ul{text-align:center;}
+}
+.footer_social ul li { 
+	display: inline-block; 
+	padding-left: 5px; 
+	padding-right: 5px;
+}
+.footer_social ul li a {
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	-webkit-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+	width: 48px;
+	border-radius: 50%;
+}
+.footer_social ul li a:hover { color: #fff; background: #51d2c0; }
+/*END FOOTER SOCIAL DESIGN*/
+.copyright p {
+	color:#727272;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+@media only screen and (max-width:480px) { 
+.copyright p {text-align:center;}
+}
+.facebook { background: #5D82D1; }
+.twitter { background: #40BFF5; }
+.google { background: #EB5E4C; }
+.linkedin { background: #238CC8; }
+.youtube { background: #CC181E; }
+.instagram { background: #A4785F; }
+/*
+* ----------------------------------------------------------------------------------------
+* 16.END FOOTER DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+.c1{
+	color: #26A9E0;
+}
+.c2{
+	color: #EB2E4A;
+}
+.c3{
+	color: #F15723;
+}
+.c4{
+	color: #ED1C24;
+}
+.c5{
+	color: #9B6A30;
+}
+.c6{
+	color: #19B963;
+}
